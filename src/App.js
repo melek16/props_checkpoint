@@ -1,23 +1,11 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Profile from './profile/Profile';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Profile image="https://th.bing.com/th/id/R.bb146ebb3862cba428117f1a4a5ccb19?rik=ZBmnlAhi5VRMEg&pid=ImgRaw&r=0"/>
     </div>
   );
 }
